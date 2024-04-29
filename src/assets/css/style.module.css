@@ -1,0 +1,61 @@
+.adminContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.alignCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cardWith {
+  width: 60%;
+}
+
+.imagePosition {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title {
+  font-size: 30px !important;
+}
+
+.description {
+  max-width: 680px;
+}
+
+.content {
+  min-height: 100vh;
+}
+.linkText {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+@media (max-width: 84.35em) {
+  .cardWith {
+    width: 100%;
+  }
+}
+
+@media (max-width: 62em) {
+  .imagePosition {
+    justify-content: flex-start;
+  }
+  
+}
+
+@media (max-width: 60em) {
+  .loginCard{
+    width: 400px;
+    margin: auto;
+  }
+  
+}
